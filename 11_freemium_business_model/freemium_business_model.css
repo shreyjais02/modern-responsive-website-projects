@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    background-color: #eff7ff;
+    height: 100vh;
+    padding: 20px;
+    color: white;
+    font-family: Roboto;
+    display: flex;
+}
+
+.content {
+    background-color: #0b4870;
+    border-radius: 15px;
+}
+
+.images {
+    height: 100px;
+    width: 100px;
+}
+
+.top-div {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.bottom-div {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.line {
+    border-width: 1px;
+    background-color: #f4f3f3;
+    width: 80vw;
+    border-radius: 50px;
+    border-style: solid;
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .top-div {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .images {
+        height: 120px;
+        width: 120px;
+    }
+
+    .img {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .img2 {
+        margin-top: auto;
+        margin-bottom: auto;
+        order: 1;
+    }
+
+    .testcase {
+        display: flex;
+        font-size: 25px;
+    }
+
+    .bottom-div {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        order: -1;
+    }
+
+    .cnt {
+        text-align: left;
+        padding-left: 20px;
+    }
+}
