@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Roboto;
+}
+
+.main-heading {
+    color: #ff6e30;
+}
+
+.main-para {
+    color: #e2e8f0;
+}
+
+.card {
+    background-color: #2c353d;
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+    margin: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+}
+
+.icon-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.scam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pricing-time-size {
+    font-size: 8px;
+}
+
+.pricing-size {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    color: #f8fafc;
+}
+
+.content-para {
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+li {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.button-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    background-color: white;
+    color: #2d3748;
+    border-radius: 12px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button2 {
+    background-color: #ff6e30;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.top-div {
+    margin-left: 25px;
+}
