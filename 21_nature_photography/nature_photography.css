@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    min-height: 100vh;
+}
+
+.main-container {
+    padding: 32px;
+}
+
+.main-heading {
+    text-align: center;
+    color: #2d3436;
+    margin-bottom: 32px;
+    font-size: 40px;
+}
+
+.card-pack-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 15px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+@media (max-width: 780px) {
+    .card-pack-container {
+        flex-direction: column;
+        height: auto;
+        gap: 32px;
+    }
+
+    .card {
+        position: relative;
+        transform: none !important;
+        margin: 16px;
+    }
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card-content {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 24px;
+    color: #ffffff;
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+    z-index: 2;
+}
+
+.card:hover .card-content {
+    transform: translateY(0);
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.card-description {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.card1 {
+    z-index: 3;
+}
+
+.card2 {
+    transform: translateX(200px) rotate(5deg);
+    transition: transform 0.5s ease;
+    z-index: 2;
+}
+
+.card3 {
+    transform: translateX(-200px) rotate(-5deg);
+    transition: transform 0.5s ease;
+    z-index: 1;
+}
+
+.card:hover {
+    z-index: 4;
+    transform: rotate(0deg) scale(1.1) translateY(-40px);
+}
