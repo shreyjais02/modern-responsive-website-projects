@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.heading {
+    color: #1a202c;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+nav {
+    background-color: #ffffff;
+    padding: 12px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+nav img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+nav div {
+    display: flex;
+    gap: 12px;
+}
+
+.ot,
+.bt {
+
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ot {
+    background-color: #ffffff;
+    color: #7c3aed;
+    border: solid #7c3aed 2px;
+    padding: 10px 22px;
+}
+
+.ot1 {
+    background-color: #ffffff;
+    color: #7c3aed;
+    border: 2px solid #7c3aed;
+    padding: 10px 20px;
+}
+
+
+.ot:hover {
+    background-color: #e0f2fe;
+}
+
+.btn-testcase {
+    color: #7c3aed;
+}
+
+.clr-testcase {
+    color: #1a365d;
+}
+
+.grid-testcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+@media screen and (min-width: 768px) {}
+
+.bt {
+    background-color: #7c3aed;
+    color: #ffffff;
+    border: 0px;
+    padding: 10px 20px;
+
+}
+
+.card p {
+    color: #1a365d;
+}
+
+.bt1 {
+
+    background-color: #7c3aed;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+
+}
+
+.bt:hover {
+    background-color: #0369a1;
+}
+
+
+.bg {
+    background-image: linear-gradient(to right, #4c1d95, #7c3aed);
+    color: white;
+    display: grid;
+    grid-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 120px 20px 60px;
+    gap: 20px;
+}
+
+.heading1 {
+    color: white;
+    font-size: 2.2rem;
+    line-height: 1.4;
+
+}
+
+.bg {
+    color: white;
+    font-size: 2.2rem;
+    line-height: 1.4;
+}
+
+span {
+    background-color: #a388d3;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.bg p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.bg-buttons {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bg img {
+    display: none;
+    margin-top: 30px;
+    width: 85%;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.bgp {
+
+    background-color: #a388d3;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.bgp h5 {
+    color: #0284c7;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.bgp h1 {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: #343a40;
+}
+
+.g {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    align-items: start;
+    justify-items: center;
+}
+
+.g2 {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .g2 {
+        display: inline;
+    }
+}
+
+
+.bgp img {
+    max-width: 280px;
+    border-radius: 12px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+
+    text-align: left;
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 280px;
+}
+
+.card2 {
+    background-color: #7c3aed;
+    color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h1 {
+    font-size: 1.2rem;
+    color: #075985;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #1a202c;
+}
+
+
+.s {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 18px 40px;
+    width: auto;
+}
+
+@media (min-width:768px) {
+    .bgp {
+        display: flex;
+        flex-direction: row;
+        background-color: #e0f2fe;
+        padding: 60px 30px;
+        text-align: center;
+    }
+
+    .img {}
+
+    .card {}
+}
