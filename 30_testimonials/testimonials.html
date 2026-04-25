@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        roboto: ["Roboto"],
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <div class="bg-[#1a1a1a] p-4">
+        <h1 class="text-[#ffcd05] font-roboto text-center">
+            Meet Our Successful Biker Captains
+        </h1>
+        <div class="p-4 m-4 gap-4 grid grid-rows-5 grid-cols-3">
+            <div class="bg-[#ffcd05] p-6 col-span-1 row-span-2">
+                <p class="text-sm">Monthly Earnings</p>
+                <p>Average earnings of top captains</p>
+                <p class="">Rs. 45,000</p>
+            </div>
+            <div class="row-span-2 bg-white col-span-2 row-span-2">
+                <p>Captain Story</p>
+                <p>
+                    "With Biker's flexible hours, I earn extra income while pursuing my studies.
+                    The app is easy to use and customers are friendly."
+                </p>
+                <p>Ravi Kumar</p>
+                <p>Part-time Captain</p>
+            </div>
+            <div class="max-h-64 col-span-2 row-span-3 max-w-500px relative">
+                <img src="https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/niat_modern_responsive_web_design/niat_coding_questions/mrwd_course_exam_1_v3_img_1.jpg" alt="City traffic" class="max-w-500px" />
+                <div class="absolute right-0 bottom-0">
+                    <p>Full-time Success</p>
+                    <p>
+                        "I switched to Biker full-time and now earn twice my previous salary.
+                        The incentives and customer tips make a big difference."
+                    </p>
+                    <p>Amit Singh</p>
+                    <p>Full-time Captain</p>
+                </div>
+            </div>
+            <div class="row-span-2">
+                <img src="https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/niat_modern_responsive_web_design/niat_coding_questions/mrwd_course_exam_1_v3_img_2.jpg" alt="Bike rider" />
+            </div>
+            <button class="row-span-1 col-span-1 bg-[#ffcd05]">
+                Join as Captain
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
